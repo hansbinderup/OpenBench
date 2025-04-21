@@ -62,6 +62,10 @@ MIDDLEWARE = [
     'htmlmin.middleware.MarkRequestMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://openbench.bunny.beer",
+]
+
 ROOT_URLCONF = 'OpenSite.urls'
 
 TEMPLATES = [
